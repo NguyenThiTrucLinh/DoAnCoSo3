@@ -1,0 +1,47 @@
+# Built application files
+build/
+release/
+*.apk
+*.ap_
+bin/
+gen/
+target/
+
+# Files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# Local configuration file (sdk path, etc)
+local.properties
+.gitattributes
+
+# Crowdin plugin configuration
+crowdin.properties
+
+# Gradle generated files
+.gradle/
+
+# Signing files
+.signing/
+
+# Eclipse
+.settings
+.classpath
+.project
+
+# User-specific configurations
+.idea/
+*.iml
+ajcore.*.txt
+captures/
+
+# OS-specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

@@ -1,0 +1,17 @@
+[{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "web",
+    "site": "https://listen.moe"
+  }
+ },
+ {
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "me.echeung.moemoekyun",
+    "sha256_cert_fingerprints": [
+      "DA:D9:6E:48:F0:FB:C3:B2:4D:CB:61:C5:D9:A0:FB:78:26:F1:4F:FC:68:7D:39:1E:5F:86:26:33:BF:7F:38:97"
+    ]
+  }
+ }]

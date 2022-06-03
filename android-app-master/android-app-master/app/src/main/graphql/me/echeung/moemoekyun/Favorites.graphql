@@ -1,0 +1,22 @@
+query FavoritesQuery($username: String!, $offset: Int!, $count: Int!, $kpop: Boolean) {
+    user(username: $username) {
+        favorites(offset: $offset, count: $count, kpop: $kpop) {
+            favorites {
+                song {
+                    ...songListFields
+                }
+                createdAt
+            }
+        }
+    }
+}
+
+query CheckFavoriteQuery($songs: [Int!]!) {
+    checkFavorite(songs: $songs)
+}
+
+mutation FavoriteMutation($id: Int!) {
+    favoriteSong(id: $id) {
+        id
+    }
+}

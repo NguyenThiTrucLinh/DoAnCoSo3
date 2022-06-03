@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name" translatable="false">MUSIC SUBLIMATION</string>
+    <string name="asset_statements" translatable="false">
+    [{
+        \"include\": \"https://listen.moe/.well-known/assetlinks.json\"
+    }]
+    </string>
+
+    <!--
+        On https://crowdin.com/project/listenmoe-android-app/settings#members
+        copy([...document.querySelectorAll('#project_members_table .items-js-content tr .ps-members-name')].map(div => '\\n' + div.innerText.trim().split(' (')[0]).sort((a, b) => a.toLowerCase().localeCompare(b.toLowerCase())).join('\n'))
+    -->
+    <string name="translators_list" translatable="false">
+        \n3316482
+        \nAnany Meza
+        \narkon94
+        \nArthur Um
+        \nAtFr
+        \nbhj
+        \nChuen Li
+        \nClaireStanfield
+        \nCliptons
+        \nCrawl
+        \nDiavolo69
+        \nDicky Aditya
+        \nditokp
+        \nditokurniap
+        \nDominique Chapelier
+        \ndungles
+        \nEmachii 🦋
+        \nemre özdemir
+        \nErinç Esen
+        \nFlutterCZ
+        \nFoorack
+        \nGabriel Henrique da Cunha Gonçalves
+        \nGiorgioHerbie
+        \nGuai
+        \nGuo Yunhe
+        \nHoa Gia Đại Thiếu
+        \nIdesmi
+        \nIgor Pissolati
+        \nIsabel Vianna Montovani
+        \nJeluang
+        \nKaede
+        \nkairuu
+        \nkamal-kun
+        \nKana
+        \nKathya Teran
+        \nKhaing Yin Mon Aung
+        \nKónya Márton
+        \nLeozard
+        \nlinguist
+        \nLiu Tao
+        \nLuke Produkcje
+        \nmarc0tjevp
+        \nMayra Ignacia Celedon Vidal
+        \nMelisa Wijaya
+        \nMiinc
+        \nMuhammed Gültekin
+        \nNartis
+        \nNick
+        \nnicoro
+        \nniseee
+        \nOnachi- San
+        \nOrigami
+        \nPaul Chang
+        \nPoussinou
+        \nPraxic
+        \nPytey
+        \nQWERT
+        \nRap Management
+        \nReza Rangga Dirza
+        \nrobflop
+        \nŠarūnas
+        \nSatsuki Yanagi
+        \nSDTR
+        \nSilvanaFP
+        \nspoonm
+        \nsT
+        \nStore
+        \nsunmoon
+        \nTAKAHASHI Shuuji
+        \nTatsuya Ishikawa
+        \nTill Kottmann
+        \nTũn A. R. M. Y
+        \ntzium
+        \nVinicius Ferreira
+        \nvoltrare
+        \nWachid Adi Nugroho
+        \nWarrock3280
+        \nWoWnik
+        \nxTheEc0
+        \nyami
+        \nYassir Lagrich
+        \nYayaka
+        \n노스스
+        \n사람
+        \n한병규
+        \n尤鈺欽
+        \n离芯_sc
+    </string>
+
+    <string-array name="pref_language_names" translatable="false">
+        <item>@string/system_default</item>
+        <item>Bahasa Indonesia</item>
+        <item>Bahasa Melayu</item>
+        <item>Catalan</item>
+        <item>Deutsch</item>
+        <item>English (UK)</item>
+        <item>English (US)</item>
+        <item>Español</item>
+        <item>Esperanto</item>
+        <item>Français</item>
+        <item>Italiano</item>
+        <item>Lietuvių</item>
+        <item>Nederlands</item>
+        <item>සිංහල</item>
+        <item>Svenska</item>
+        <item>Português</item>
+        <item>Русский</item>
+        <item>Türkçe</item>
+        <item>Tiếng Việt</item>
+        <item>한국어</item>
+        <item>日本語</item>
+        <item>简体中文</item>
+        <item>繁體中文</item>
+    </string-array>
+
+    <string-array name="pref_language_codes" translatable="false">
+        <item>default</item>
+        <item>in</item>
+        <item>ms</item>
+        <item>ca</item>
+        <item>de</item>
+        <item>en-rGB</item>
+        <item>en-rUS</item>
+        <item>es</item>
+        <item>eo</item>
+        <item>fr</item>
+        <item>it</item>
+        <item>lt</item>
+        <item>nl</item>
+        <item>si</item>
+        <item>sv</item>
+        <item>pt</item>
+        <item>ru</item>
+        <item>tr</item>
+        <item>vn</item>
+        <item>ko</item>
+        <item>ja</item>
+        <item>zh-rCN</item>
+        <item>zh-rTW</item>
+    </string-array>
+
+</resources>
